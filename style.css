@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(69, 69, 162);
+}
+h1{
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.container{
+    display: grid;
+    grid-template-areas: 'first first second second third third third third'
+                         'first first fifth fifth sixth sixth seventh seventh'
+                         'fourth fourth ninth ninth sixth sixth tenth tenth'
+                         'eighth eighth ninth ninth eleventh eleventh eleventh eleventh';
+    gap: 10px;
+    padding: 10px;
+    width: 1200px;
+    height: 600px;
+    margin-left: 40px;
+}
+.container div{
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}  
+.item1 { 
+    grid-area: first; 
+}
+.item2 { 
+    grid-area: second; 
+}
+.item3 { 
+    grid-area: third; 
+}
+.item4 { 
+    grid-area: fourth; 
+}
+.item5 { 
+    grid-area: fifth; 
+}
+.item6 { 
+    grid-area: sixth; 
+}
+.item7 { 
+    grid-area: seventh; 
+}
+.item8 { 
+    grid-area: eighth;
+}
+.item9 { 
+    grid-area: ninth; 
+}
+.item10 { 
+    grid-area: tenth; 
+}
+.item11{
+    grid-area: eleventh;
+}
